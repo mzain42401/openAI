@@ -1,0 +1,286 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+    </style>
+</head>
+
+
+<body>
+
+
+  <!-- header  -->
+
+  <header class="text-gray-600 body-font shadow">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full"
+          viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">Tailblocks</span>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900 cursor-pointer">First Link</a>
+        <a class="mr-5 hover:text-gray-900 cursor-pointer">Second Link</a>
+        <a class="mr-5 hover:text-gray-900 cursor-pointer">Third Link</a>
+        <a class="mr-5 hover:text-gray-900 cursor-pointer">Fourth Link</a>
+      </nav>
+      <button
+        class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- hero -->
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-5xl text-4xl mb-4 font-bold text-gray-900">Exploring the Boundless Horizons of
+          OpenAI</h1>
+        <p class="mb-8 leading-relaxed">OpenAI drives AI innovation with a focus on responsible development, shaping a
+          future where AI benefits humanity. Through collaboration and cutting-edge research, OpenAI is redefining
+          possibilities in artificial intelligence.</p>
+        <div class="flex justify-center">
+          <button 
+            class="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg"><a href="#APIS">APIs</a></button>
+          <button
+            class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+            <a href="https://platform.openai.com/docs/overview" target="_blank">Quick Start</a></button>
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- intro -->
+
+
+
+  <section class="text-gray-600 pt-20 body-font">
+    <h1 class="sm:text-3xl text-2xl  font-medium text-center title-font text-gray-900 mb-14 ">Resouces</h1>
+    <div class="container px-5  mx-auto flex flex-wrap">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 lg:w-1/2 md:w-full">
+          <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+            <div
+              class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+              <i class="fa-solid fa-wand-magic-sparkles text-2xl"></i>
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Experiment in the <a
+                  class="text-yellow-500 1important" href="https://platform.openai.com/playground?mode=chat"
+                  target="_blank">playground</a> </h2>
+              <p class="leading-relaxed text-base">The playground offers a safe environment to test code snippets and
+                explore OpenAI's capabilities without the risk of affecting live projects.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2 md:w-full">
+          <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+            <div
+              class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+              <i class="fa-solid fa-walkie-talkie text-2xl"></i>
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Read the <a
+                  class="text-yellow-500 1important" href="https://platform.openai.com/docs/api-reference"
+                  target="_blank">API reference</a> </h2>
+              <p class="leading-relaxed text-base">The API reference is a comprehensive guide that documents all the
+                endpoints, parameters, and functionalities available within the OpenAI API.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2 md:w-full">
+          <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+            <div
+              class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+              <i class="fa-solid fa-phone text-2xl"></i>
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Visit the <a
+                  class="text-yellow-500 1important" href="https://help.openai.com/en/" target="_blank">help center</a>
+              </h2>
+              <p class="leading-relaxed text-base">The help center serves as a central hub for accessing resources such
+                as FAQs, troubleshooting guides, and best practices for utilizing OpenAI's services.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2 md:w-full">
+          <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+            <div
+              class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+              <i class="fa-solid fa-signal text-2xl"></i>
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">View the current API <a
+                  class="text-yellow-500 1important" href="https://status.openai.com/" target="_blank">status</a> </h2>
+              <p class="leading-relaxed text-base">Monitoring the API status allows developers to stay informed about
+                any service interruptions, maintenance schedules, or performance updates that may impact their
+                applications.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2 md:w-full">
+          <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+            <div
+              class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+              <i class="fa-solid fa-layer-group text-2xl"></i>
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Check out the <a
+                  class="text-yellow-500 1important" href="https://community.openai.com/" target="_blank">OpenAI
+                  Developer Forum</a> </h2>
+              <p class="leading-relaxed text-base">The Developer Forum is a valuable platform for engaging with the
+                OpenAI community, sharing insights, and exchanging ideas about best practices and collaborations.
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2 md:w-full">
+          <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+            <div
+              class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+              <i class="fa-solid fa-building-shield text-2xl"></i>
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Learn about our <a
+                  class="text-yellow-500 1important" href="https://openai.com/policies/usage-policies"
+                  target="_blank">usage policies</a> </h2>
+              <p class="leading-relaxed text-base">Understanding OpenAI's usage policies is crucial for ensuring
+                compliance with terms of service, data usage regulations, and ethical considerations when utilizing
+                their technologies.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- box -->
+
+  <section class="text-gray-600 body-font" >
+    <div class="container px-5 py-24 mx-auto">
+      <div class="text-center mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4" id="APIS">Explore the API</h1>
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Pushing the boundaries of AI for a better future.
+        </p>
+      </div>
+      <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium"><a href="" class="hover:underline">Text generation</a> </span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium"><a href="" class="hover:underline">Prompt engineering</a></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium"><a href="" class="hover:underline">Embeddings</a></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium"><a href="" class="hover:underline">Speech to text</a></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium"><a href="" class="hover:underline">Image generation</a></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium"><a href="" class="hover:underline">Fine-tuning</a></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium"><a href="" class="hover:underline">Text to speech</a>
+            </span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium"><a href="" class="hover:underline">Vision</a></span>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+</body>
+
+</html>
